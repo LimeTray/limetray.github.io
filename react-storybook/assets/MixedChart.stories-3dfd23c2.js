@@ -1,4 +1,4 @@
-import{j as i}from"./jsx-runtime-8406ef1e.js";import{M as h}from"./mixedChart-682e3699.js";import"./index-ad58220e.js";import"./_commonjsHelpers-de833af9.js";import"./auto-a199c2c6.js";import"./lodash-9978a6f3.js";const M={title:"MixedChart",component:h,parameters:{docs:{description:{component:`
+import{j as i}from"./jsx-runtime-8406ef1e.js";import{M as h}from"./mixedChart-a504e99e.js";import"./index-ad58220e.js";import"./_commonjsHelpers-de833af9.js";import"./auto-a199c2c6.js";import"./lodash-9978a6f3.js";const M={title:"MixedChart",component:h,parameters:{docs:{description:{component:`
 The \`MixedChart\` component is a versatile chart wrapper built using Chart.js. 
 It supports mixed datasets and customizable options, including responsive design, 
 custom tick callbacks, and plugin configurations.
