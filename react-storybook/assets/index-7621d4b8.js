@@ -1,4 +1,4 @@
-import{j as b}from"./jsx-runtime-8406ef1e.js";import{d as r,l as v}from"./styled-components.browser.esm-d2d81691.js";import{t as $}from"./config-58506fea.js";import{H as q}from"./Header-30441d32.js";const T=()=>$,f=T(),k=()=>f,S={getStyle:k},x=r(q)`
+import{j as b}from"./jsx-runtime-8406ef1e.js";import{d as r,l as v}from"./styled-components.browser.esm-d2d81691.js";import{t as $}from"./config-d87c20af.js";import{H as q}from"./Header-30441d32.js";const T=()=>$,f=T(),k=()=>f,S={getStyle:k},x=r(q)`
   color: ${e=>e.$color};
 `,i=(e,t,n,u)=>v`
   font-family: ${e.fontFamily};
@@ -15,12 +15,13 @@ import{j as b}from"./jsx-runtime-8406ef1e.js";import{d as r,l as v}from"./styled
   ${e=>i(e.$typographyType,e.$resolvedSize,e.$color,e.$textAlign)}
 `,j=r.div`
   ${e=>i(e.$typographyType,e.$resolvedSize,e.$color,e.$textAlign)}
-`,l=e=>{var a;const t=S.getStyle(),n=t.typography[e.type],u=e.size?t.sizes[e.size]:n.fontSize,o=e.color||t.colors.text,s=e.textAlign||"left",m=e.multiplier?typeof e.multiplier=="string"&&((a=t.multipliers)!=null&&a[e.multiplier])?Number(t.multipliers[e.multiplier]):typeof e.multiplier=="number"?e.multiplier<=0?1:e.multiplier:parseFloat(e.multiplier)<=0?1:parseFloat(e.multiplier)||1:1,y=u.replace("rem",""),g=`${parseFloat(y)*m}rem`,d=(h=>{switch(h){case"heading":return x;case"body":return z;case"caption":return A;case"button":return w;default:return j}})(e.type),{type:_,size:F,color:H,text:c,textAlign:N,typographyType:B,subheader:D,...p}=e;return b.jsx(d,{$typographyType:n,$resolvedSize:g,$color:o,$textAlign:s,...p,children:c})},R=l;l.__docgenInfo={description:"",methods:[],displayName:"Typography",props:{text:{required:!0,tsType:{name:"string"},description:""},color:{required:!1,tsType:{name:"string"},description:""},type:{required:!0,tsType:{name:"signature",type:"object",raw:`{
+`,l=e=>{var a;const t=S.getStyle(),n=t.typography[e.type],u=e.size?t.sizes[e.size]:n.fontSize,o=e.color||t.colors.text,y=e.textAlign||"left",m=e.multiplier?typeof e.multiplier=="string"&&((a=t.multipliers)!=null&&a[e.multiplier])?Number(t.multipliers[e.multiplier]):typeof e.multiplier=="number"?e.multiplier<=0?1:e.multiplier:parseFloat(e.multiplier)<=0?1:parseFloat(e.multiplier)||1:1,s=u.replace("rem",""),g=`${parseFloat(s)*m}rem`,d=(h=>{switch(h){case"heading":return x;case"body":return z;case"caption":return A;case"button":return w;default:return j}})(e.type),{type:_,size:F,color:H,text:c,textAlign:N,typographyType:B,subheader:D,...p}=e;return b.jsx(d,{$typographyType:n,$resolvedSize:g,$color:o,$textAlign:y,...p,children:c})},R=l;l.__docgenInfo={description:"",methods:[],displayName:"Typography",props:{text:{required:!0,tsType:{name:"string"},description:""},color:{required:!1,tsType:{name:"string"},description:""},type:{required:!0,tsType:{name:"signature",type:"object",raw:`{
   heading: Typography;
   body: Typography;
   caption: Typography;
   button: Typography;
-}`,signature:{properties:[{key:"heading",value:{name:"Typography",required:!0}},{key:"body",value:{name:"Typography",required:!0}},{key:"caption",value:{name:"Typography",required:!0}},{key:"button",value:{name:"Typography",required:!0}}]}},description:""},id:{required:!0,tsType:{name:"string"},description:""},size:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  label: Typography;
+}`,signature:{properties:[{key:"heading",value:{name:"Typography",required:!0}},{key:"body",value:{name:"Typography",required:!0}},{key:"caption",value:{name:"Typography",required:!0}},{key:"button",value:{name:"Typography",required:!0}},{key:"label",value:{name:"Typography",required:!0}}]}},description:""},id:{required:!0,tsType:{name:"string"},description:""},size:{required:!1,tsType:{name:"signature",type:"object",raw:`{
   mini: string;
   tiny: string;
   small: string;
