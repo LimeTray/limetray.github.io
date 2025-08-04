@@ -1,4 +1,4 @@
-import{j as l}from"./jsx-runtime-8406ef1e.js";import{d as r,o}from"./styled-components.browser.esm-675ea4f2.js";import{t as c}from"./config-d87c20af.js";const u=r.span`
+import{j as l}from"./jsx-runtime-8406ef1e.js";import{d as r,o}from"./styled-components.browser.esm-675ea4f2.js";import{t as c}from"./config-92a52d19.js";const u=r.span`
   margin-right: 0.5em;
 `,m=r.span`
   margin-left: 0.5em;
