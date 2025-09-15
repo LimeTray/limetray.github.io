@@ -1,0 +1,1 @@
+const e=(r=16)=>{const t="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";let n="";for(let o=0;o<r;o++){const a=Math.floor(Math.random()*t.length);n+=t.charAt(a)}return n};export{e as g};

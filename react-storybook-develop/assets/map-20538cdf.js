@@ -1,0 +1,1 @@
+import{i as m,m as u,d as f,n as p}from"./getElementType-ff0d42f5.js";import{b}from"./childrenUtils-dd3b0ba5.js";function y(a,r){var s=-1,e=m(a)?Array(a.length):[];return u(a,function(n,t,i){e[++s]=r(n,t,i)}),e}function h(a,r){var s=f(a)?p:y;return s(a,b(r))}export{h as m};
