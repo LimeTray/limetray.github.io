@@ -1,0 +1,18 @@
+import{j as s}from"./jsx-runtime-8406ef1e.js";import{r as L}from"./index-ad58220e.js";import{B as S}from"./Button-13ce16b7.js";/* empty css              */import"./_commonjsHelpers-de833af9.js";import"./extends-4c19d496.js";import"./inheritsLoose-5494d9cc.js";import"./factories-f5adea19.js";import"./getElementType-ff0d42f5.js";import"./childrenUtils-dd3b0ba5.js";import"./Icon-33b7fdc8.js";import"./Label-32ef75b5.js";import"./ModernAutoControlledComponent-fe68b7fb.js";import"./assertThisInitialized-081f9914.js";import"./htmlPropsUtils-9497f5af.js";import"./includes-646822e3.js";import"./Portal-25fcd847.js";import"./index-4fee7e45.js";import"./Ref-51c42093.js";import"./objectWithoutPropertiesLoose-f3b3ace0.js";import"./map-20538cdf.js";const b=""+new URL("pending-bf6253e5.png",import.meta.url).href,v=""+new URL("publishError-0a25f147.png",import.meta.url).href,T=""+new URL("publishSuccess-fd1e1a9a.png",import.meta.url).href;class n extends L.Component{constructor(e){super(e),this.state={}}render(){const{loaderStatus:e,loadingText:f,doneLabel:x,onOk:h}=this.props;return s.jsxs("div",{className:"publish-container",children:[s.jsxs("div",{className:"text-center",children:[s.jsx("div",{className:"display-inline",children:s.jsx("img",{src:e==="pending"?b:e==="success"?T:e==="error"?v:"",alt:"penidig"})}),s.jsxs("div",{className:"display-inline status",children:["Status:",s.jsx("span",{style:{marginLeft:"6px",color:e==="pending"?"#297DE0":e==="success"?"#008000":e==="error"?"#CF2A27":"#000000"},children:e==="pending"?"Pending":e==="success"?"Success":e==="error"?"Failed":null})]})]}),s.jsx("div",{className:"display-inline publish-text",children:f}),s.jsx("div",{className:"display-inline text-center",children:s.jsx(S,{className:"blue-btn ok-btn-width",content:x,primary:!0,disabled:e==="pending",onClick:h})})]})}}n.defaultProps={loaderStatus:"success",loadingText:"Loader",doneLabel:"OK",onOk:()=>{console.log("ok works")}};const y=n;n.__docgenInfo={description:"",methods:[],displayName:"AdvanceLoader",props:{loaderStatus:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:'"success"',computed:!1}},loadingText:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:'"Loader"',computed:!1}},doneLabel:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:'"OK"',computed:!1}},onOk:{required:!1,tsType:{name:"any"},description:"",defaultValue:{value:`() => {
+  console.log("ok works");
+}`,computed:!1}}}};const J={component:y,title:"AdvancedLoader",tags:["autodocs"]},r={args:{loaderStatus:"pending",loadingText:"Loading pending"}},a={args:{loaderStatus:"success",loadingText:"Loading successful"}},o={args:{loaderStatus:"error",loadingText:"Loading failed"}};var t,i,d;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {
+    loaderStatus: "pending",
+    loadingText: "Loading pending"
+  }
+}`,...(d=(i=r.parameters)==null?void 0:i.docs)==null?void 0:d.source}}};var c,l,p;a.parameters={...a.parameters,docs:{...(c=a.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    loaderStatus: "success",
+    loadingText: "Loading successful"
+  }
+}`,...(p=(l=a.parameters)==null?void 0:l.docs)==null?void 0:p.source}}};var u,m,g;o.parameters={...o.parameters,docs:{...(u=o.parameters)==null?void 0:u.docs,source:{originalSource:`{
+  args: {
+    loaderStatus: "error",
+    loadingText: "Loading failed"
+  }
+}`,...(g=(m=o.parameters)==null?void 0:m.docs)==null?void 0:g.source}}};const M=["Pending","Success","Failed"];export{o as Failed,r as Pending,a as Success,M as __namedExportsOrder,J as default};

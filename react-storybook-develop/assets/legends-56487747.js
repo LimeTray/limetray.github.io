@@ -1,0 +1,5 @@
+import{j as e}from"./jsx-runtime-8406ef1e.js";import{L as i}from"./Label-32ef75b5.js";const r=({legendsData:s,heading:t})=>e.jsxs("div",{className:"legend-container",children:[e.jsx("h5",{children:t}),s==null?void 0:s.map((a,n)=>e.jsxs("div",{className:"legend-item",children:[e.jsx(i,{className:"legend-label",style:{backgroundColor:a.color}}),e.jsx("span",{className:"legend-text",children:a.text}),e.jsx("span",{className:"legend-description",children:a.description})]},n))]});r.defaultProps={legendsData:[],heading:""};const o=r;r.__docgenInfo={description:"",methods:[],displayName:"Legends",props:{legendsData:{required:!1,tsType:{name:"Array",elements:[{name:"signature",type:"object",raw:`{
+  text: string;
+  color: string;
+  description?: string;
+}`,signature:{properties:[{key:"text",value:{name:"string",required:!0}},{key:"color",value:{name:"string",required:!0}},{key:"description",value:{name:"string",required:!1}}]}}],raw:"LegendData[]"},description:"",defaultValue:{value:"[]",computed:!1}},heading:{required:!1,tsType:{name:"ReactReactNode",raw:"React.ReactNode"},description:"",defaultValue:{value:"''",computed:!1}}}};export{o as L};
