@@ -1,4 +1,4 @@
-import{j as r}from"./jsx-runtime-8406ef1e.js";import{r as n}from"./index-ad58220e.js";import{I as E}from"./Input-3f8aa787.js";import{D as L}from"./Dropdown-e3088384.js";import{d as j,o as D}from"./styled-components.browser.esm-675ea4f2.js";import{L as O}from"./index-6dcb29cb.js";const A=j(E)`
+import{j as r}from"./jsx-runtime-8406ef1e.js";import{r as n}from"./index-ad58220e.js";import{I as E}from"./Input-3f8aa787.js";import{D as L}from"./Dropdown-e3088384.js";import{d as j,o as D}from"./styled-components.browser.esm-675ea4f2.js";import{L as O}from"./index-eb89699e.js";const A=j(E)`
   border: 1px solid ${e=>e.theme.colors.border} !important;
   border-radius: ${e=>e.theme.borderRadius} !important;
   overflow: ${e=>e.label?"visible":"hidden"};
