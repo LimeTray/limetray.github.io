@@ -1,0 +1,19 @@
+import{j as o}from"./jsx-runtime-8406ef1e.js";import{r as c}from"./index-ad58220e.js";import{C as a}from"./index-35a984fa.js";import{B as m}from"./Button-a1cbfca3.js";import"./_commonjsHelpers-de833af9.js";import"./Popup-9508b0bc.js";import"./extends-4c19d496.js";import"./inheritsLoose-5494d9cc.js";import"./factories-d6e88bd9.js";import"./getElementType-0ca87dce.js";import"./ModernAutoControlledComponent-ac79fba3.js";import"./assertThisInitialized-081f9914.js";import"./pick-7736bb65.js";import"./_baseSet-4a5e4309.js";import"./childrenUtils-250e70c5.js";import"./includes-03b4ffc2.js";import"./objectWithoutPropertiesLoose-f3b3ace0.js";import"./index-4fee7e45.js";import"./index-e8ec4132.js";import"./_arrayReduce-865b0d3f.js";import"./Portal-392918f3.js";import"./toPropertyKey-4015efc6.js";import"./styled-components.browser.esm-675ea4f2.js";import"./config-43c6afbd.js";import"./ltRadio-c9899d1d.js";import"./Radio-08aa4d46.js";import"./Checkbox-f1691e20.js";import"./htmlPropsUtils-e61b253b.js";import"./ThemeContext-71b3bf8d.js";import"./index-58bb9209.js";import"./Icon-5cfe3eb1.js";import"./index-3fe895e7.js";import"./ltButton-bd8533d9.js";import"./searchComponent-ac2773ce.js";import"./Input-3ccf8d1e.js";import"./map-db19bd84.js";import"./Label-78d4db42.js";import"./Search-6f7fbf7f.js";import"./isEmpty-f7f0c885.js";import"./ltCheckBox-10fa6f25.js";import"./index-9d08e30f.js";import"./Header-fb48e55c.js";import"./stringConstants-f1def6f8.js";import"./lodash-9978a6f3.js";const ie={title:"ChartOption",component:a,argTypes:{title:{control:"text",defaultValue:"Filter Options"}},parameters:{docs:{description:{component:`
+The \`ChartOptionsMenu\` component is a reusable menu for filtering or selecting options in a chart or dashboard interface.
+
+### Features:
+- Supports both single and multi-selection.
+- Allows grouping of sections for better organization.
+- Handles options through dropdowns or radio buttons.
+- Fully customizable through props.
+
+### Usage:
+Use this component to provide filter options or configurations in your charting or dashboard applications.
+        `}}}},u=[{label:"Group By:",name:"groupBy",options:[{value:"channels",label:"Channels"},{value:"service",label:"Service"}],defaultValue:"channels"},{label:"Show:",name:"show",options:[{value:"orders",label:"Orders"},{value:"revenue",label:"Revenue"}],defaultValue:"orders"},{label:"Filter:",sections:[{isMultiSelection:!1,label:"service:",name:"filters",options:[{value:"channel1",label:"Channel 1"},{value:"channel2",label:"Channel 2"},{value:"service1",label:"Service 1"}],value:"channel1",placeholder:"Select filters"},{isMultiSelection:!0,label:"channel:",name:"filters",options:[{value:"channel1",label:"Channel 1"},{value:"channel2",label:"Channel 2"},{value:"service1",label:"Service 1"}],value:"channel1",placeholder:"Select filters"},{isMultiSelection:!0,label:"meal group:",name:"filters",options:[{value:"channel1",label:"Channel 1"},{value:"channel2",label:"Channel 2"},{value:"service1",label:"Service 1"}],value:"channel1",placeholder:"Select filters"}]}],h=t=>{const[d,s]=c.useState({}),p=r=>{console.log("Selected Filters:",r),s(r)};return o.jsx(a,{...t,sections:t.sections,onApply:p,trigerElement:o.jsx(m,{primary:!0,children:"Open Filter Menu"}),title:"Chart Options"})},e=h.bind({});e.args={sections:u};var l,i,n;e.parameters={...e.parameters,docs:{...(l=e.parameters)==null?void 0:l.docs,source:{originalSource:`(args: any) => {
+  const [selectedFilters, setSelectedFilters] = useState({});
+  const handleApply = (filters: any) => {
+    console.log('Selected Filters:', filters);
+    setSelectedFilters(filters);
+  };
+  return <ChartOption {...args} sections={args.sections} onApply={handleApply} trigerElement={<Button primary>Open Filter Menu</Button>} title='Chart Options' />;
+}`,...(n=(i=e.parameters)==null?void 0:i.docs)==null?void 0:n.source}}};const ne=["Default"];export{e as Default,ne as __namedExportsOrder,ie as default};
