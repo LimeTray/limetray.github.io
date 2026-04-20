@@ -10,7 +10,7 @@ import{j as o}from"./jsx-runtime-8406ef1e.js";import{r as B,R as Q}from"./index-
 
   &.ui.styled.accordion.ui.styled.accordion .title {
     border-top: 1px solid ${({darkMode:t,theme:e})=>t?e.colors.darkModeBorder:e.colors.border};
-    padding: ${({theme:t})=>t.spacing.sm} 1.5rem ${({theme:t})=>t.spacing.sm} 1.5rem;
+    padding: ${({theme:t})=>t.spacing.sm} 1rem ${({theme:t})=>t.spacing.sm} 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -97,7 +97,7 @@ import{j as o}from"./jsx-runtime-8406ef1e.js";import{r as B,R as Q}from"./index-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: ${({theme:t})=>t.spacing.sm} 1.5rem;
+  padding: ${({theme:t})=>t.spacing.sm} 1rem;
   background-color: ${({darkMode:t,theme:e})=>t?e.colors.darkModeBg:e.colors.white};
   border-top: ${({$hideBorders:t,darkMode:e,theme:r})=>t?"none":`1px solid ${e?r.colors.darkModeBorder:r.colors.border}`};
   cursor: pointer;
@@ -120,7 +120,7 @@ import{j as o}from"./jsx-runtime-8406ef1e.js";import{r as B,R as Q}from"./index-
   }
 `,lt=l.p`
   && {
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: ${({darkMode:t,theme:e})=>t?e.colors.darkModeBgSecondary:e.colors.grey};
     margin: 0px;
     border-top: 1px solid ${({darkMode:t,theme:e})=>t?e.colors.darkModeBorder:e.colors.border};
@@ -131,7 +131,7 @@ import{j as o}from"./jsx-runtime-8406ef1e.js";import{r as B,R as Q}from"./index-
     `}
   }
 `,dt=l.p`
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: ${({darkMode:t,theme:e})=>t?e.colors.darkModeBgSecondary:e.colors.grey};
   border-top: 1px solid ${({darkMode:t,theme:e})=>t?e.colors.darkModeBorder:e.colors.border};
   color: ${({darkMode:t,theme:e})=>t?e.colors.darkModeText:e.colors.text};
@@ -141,7 +141,7 @@ import{j as o}from"./jsx-runtime-8406ef1e.js";import{r as B,R as Q}from"./index-
   `}
 `,ct=l.button`
   width: 100%;
-  padding: ${({theme:t})=>t.spacing.sm} 1.5rem;
+  padding: ${({theme:t})=>t.spacing.sm} 1rem;
   background-color: ${({darkMode:t,theme:e})=>t?e.colors.darkModeBg:e.colors.white};
   border: none;
   border-top: 1px solid ${({darkMode:t,theme:e})=>t?e.colors.darkModeBorder:e.colors.border};
