@@ -1,0 +1,3 @@
+import{j as n}from"./jsx-runtime-8ae9c9ad.js";import{r as a}from"./index-04c7fd94.js";/* empty css              */import"./_commonjsHelpers-725317a4.js";class s extends a.Component{render(){return n.jsx("div",{children:"test"})}}const c=s;s.__docgenInfo={description:"",methods:[],displayName:"MultiSelectorInputBox"};const d={component:c,title:"MultiSelectorInputBox",tags:["autodocs"]},t={args:{}};var e,o,r;t.parameters={...t.parameters,docs:{...(e=t.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {}
+}`,...(r=(o=t.parameters)==null?void 0:o.docs)==null?void 0:r.source}}};const x=["Default"];export{t as Default,x as __namedExportsOrder,d as default};
