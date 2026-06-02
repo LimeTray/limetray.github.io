@@ -10,6 +10,7 @@ import{j as e}from"./jsx-runtime-8ae9c9ad.js";import{r as je}from"./index-04c7fd
 `,Le=o.div`
   display: flex;
   align-items: center;
+  gap: 10px;
 `,_e=o.div`
   font-size: 16px;
   align-self: flex-start;
@@ -32,7 +33,7 @@ import{j as e}from"./jsx-runtime-8ae9c9ad.js";import{r as je}from"./index-04c7fd
 `,$e=o(Je)`
   &&& {
     margin: 0;
-    border-top: 1px solid #E5E7EB !important;
+    border-top: 1px solid #E5E7EB;
   }
 `,S=({children:n,className:v,direction:B,closeButtonPosition:C,closeButtonClass:Ce,closeIcon:w,closeButtonImage:we,visible:Ie,onHide:Se,showCloseButton:He,onClose:H,header:y,portalElement:V,style:ye})=>{const Ve=()=>e.jsxs(I,{onClick:H,className:`close-button-position-${C} ${Ce}`,icon:!!w,children:[w&&e.jsx(Te,{name:w}),we]}),De=()=>{if(!y)return null;const{title:xe,icon:Ne,showSaveButton:x=!0,showCancelButton:N=!0,onSave:Re,onCancel:Pe}=y;return e.jsxs(e.Fragment,{children:[e.jsxs(qe,{children:[e.jsxs(Le,{children:[Ne,e.jsx(_e,{children:xe})]}),(x||N)&&e.jsxs(Me,{children:[N&&e.jsx(R,{icon:!0,onClick:Pe||H||(()=>{}),circular:!0,children:e.jsx(ke,{})}),x&&e.jsx(R,{icon:!0,onClick:Re,circular:!0,children:e.jsx(Ae,{})})]})]}),e.jsx($e,{})]})},D=e.jsxs(Ee,{as:We,animation:"overlay",direction:B,onHide:Se,visible:Ie,className:v,style:ye,children:[De(),n,He&&Ve()]});return V&&typeof document<"u"?Oe.createPortal(D,V):D},ve=S;S.defaultProps={closeButtonPosition:"top",className:"",closeButtonClass:"",direction:"right",closeIcon:"close"};S.__docgenInfo={description:"",methods:[],displayName:"Drawer",props:{children:{required:!1,tsType:{name:"ReactReactNode",raw:"React.ReactNode"},description:""},className:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:'""',computed:!1}},direction:{required:!1,tsType:{name:"union",raw:"'top' | 'right' | 'bottom' | 'left'",elements:[{name:"literal",value:"'top'"},{name:"literal",value:"'right'"},{name:"literal",value:"'bottom'"},{name:"literal",value:"'left'"}]},description:"",defaultValue:{value:"'right'",computed:!1}},closeButtonPosition:{required:!1,tsType:{name:"union",raw:`| "top"
 | "right"
