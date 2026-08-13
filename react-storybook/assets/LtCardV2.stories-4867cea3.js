@@ -1,0 +1,21 @@
+import{j as r}from"./jsx-runtime-8406ef1e.js";import{I as n}from"./Icon-20504660.js";import{L}from"./ltCardV2-874967fe.js";import{T as A}from"./tooltip-8b4fc165.js";import"./index-ad58220e.js";import"./_commonjsHelpers-de833af9.js";import"./extends-4c19d496.js";import"./inheritsLoose-5494d9cc.js";import"./invoke-834bb7a1.js";import"./getElementType-727593ce.js";import"./factories-c6068050.js";import"./clsx.m-10f99be2.js";import"./childrenUtils-34f25e95.js";import"./get-9dca3307.js";import"./Header-b79d127f.js";import"./Label-023c9f1b.js";import"./ModernAutoControlledComponent-67368388.js";import"./assertThisInitialized-081f9914.js";import"./htmlPropsUtils-6da27db3.js";import"./includes-43fe29aa.js";import"./Portal-cd8f909f.js";import"./index-4fee7e45.js";import"./Ref-51c42093.js";import"./objectWithoutPropertiesLoose-f3b3ace0.js";import"./Card-ef022d7b.js";import"./map-25546da5.js";import"./Popup-c33b649e.js";import"./pick-c4f33bf4.js";import"./_baseSet-7eab0e06.js";import"./index-a2e6dd30.js";import"./_arrayReduce-865b0d3f.js";const tr={component:L,title:"LTCardV2",tags:["autodocs"],argTypes:{header:{control:"text"},subheader:{control:"text"},onClick:{action:"clicked"}}},s=P=>r.jsx("div",{style:{width:"300px"},children:r.jsx(L,{...P})}),e=s.bind({});e.args={header:"KPT",children:r.jsx("div",{children:"Content for KPT Card"})};const o=s.bind({});o.args={children:r.jsx("div",{children:"without header Card"})};const t=s.bind({});t.args={header:"KPT",subheader:"Kitchen Preparation Time",children:r.jsx("div",{children:"Content for KPT Card"}),headerAction:r.jsx(n,{name:"filter",size:"small",color:"green"})};const i=s.bind({});i.args={header:"KPT",subheader:"Kitchen Preparation Time",children:r.jsx("div",{children:"Content for KPT Card"}),headerIcon:r.jsx(n,{name:"filter",size:"small",color:"green"}),headerAction:r.jsx(n,{name:"filter",size:"small",color:"green"})};const a=s.bind({});a.args={children:r.jsxs("div",{style:{display:"flex",flexDirection:"column"},children:[r.jsxs("span",{style:{fontSize:"1.4rem",fontWeight:"400",color:"#374151"},children:["Revenue",r.jsx(A,{content:"Tooltip content",position:"top center",trigger:r.jsx(n,{size:"small",name:"info circle",style:{marginLeft:"5px",color:"grey"}})})]}),r.jsx("span",{style:{marginTop:"18px",fontSize:"1.5rem",fontWeight:"700",color:"#374151"},children:"₹ 436,798.79"}),r.jsxs("span",{style:{marginTop:"10px",display:"flex",gap:"10px",fontSize:"0.875rem",fontWeight:"400",color:"#374151"},children:[r.jsx("p",{style:{fontSize:"12px",fontWeight:"500",color:"red"},children:"↓ ₹94332 (-18%)"}),r.jsx("p",{children:"from last week"})]})]})};var d,c,p;e.parameters={...e.parameters,docs:{...(d=e.parameters)==null?void 0:d.docs,source:{originalSource:`(args: LTCardProps) => <div style={{
+  width: "300px"
+}}>
+    <LTCard {...args} />
+  </div>`,...(p=(c=e.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};var m,l,h;o.parameters={...o.parameters,docs:{...(m=o.parameters)==null?void 0:m.docs,source:{originalSource:`(args: LTCardProps) => <div style={{
+  width: "300px"
+}}>
+    <LTCard {...args} />
+  </div>`,...(h=(l=o.parameters)==null?void 0:l.docs)==null?void 0:h.source}}};var x,g,u;t.parameters={...t.parameters,docs:{...(x=t.parameters)==null?void 0:x.docs,source:{originalSource:`(args: LTCardProps) => <div style={{
+  width: "300px"
+}}>
+    <LTCard {...args} />
+  </div>`,...(u=(g=t.parameters)==null?void 0:g.docs)==null?void 0:u.source}}};var f,T,C;i.parameters={...i.parameters,docs:{...(f=i.parameters)==null?void 0:f.docs,source:{originalSource:`(args: LTCardProps) => <div style={{
+  width: "300px"
+}}>
+    <LTCard {...args} />
+  </div>`,...(C=(T=i.parameters)==null?void 0:T.docs)==null?void 0:C.source}}};var j,y,v;a.parameters={...a.parameters,docs:{...(j=a.parameters)==null?void 0:j.docs,source:{originalSource:`(args: LTCardProps) => <div style={{
+  width: "300px"
+}}>
+    <LTCard {...args} />
+  </div>`,...(v=(y=a.parameters)==null?void 0:y.docs)==null?void 0:v.source}}};const ir=["Default","WithoutHeader","HeaderSubHeaderAndAction","HeaderWithIconAndAction","AnalyticCard"];export{a as AnalyticCard,e as Default,t as HeaderSubHeaderAndAction,i as HeaderWithIconAndAction,o as WithoutHeader,ir as __namedExportsOrder,tr as default};
